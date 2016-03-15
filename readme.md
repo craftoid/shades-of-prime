@@ -2,7 +2,7 @@
 
 [Exploring the Patterns in the last digits of Prime Numbers](http://www.nature.com/news/peculiar-pattern-found-in-random-prime-numbers-1.19550)
 
-Two consecutive prime numbers are less random than mathematicians used to think they were.  
+Prime numbers are less random than mathematicians used to think they were.  
 This is immediately evident when looking at the frequency of the last digits of consecutive primes.
 
 ### Code
