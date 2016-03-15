@@ -25,7 +25,7 @@ Also there seem to be ripples inside the gradient
 
 ### Prime Pairs (Base 256)
 
-Let's pick even higher bases to see if the gradient persists. 
+Let's pick even higher bases to see if the gradient persists.  
 Indeed: much gradient, still ripples!
 
 ![](shades-of-prime-4.png)
@@ -37,3 +37,23 @@ And here's a visualization of triples of primes...
 
 ![](shades-of-prime-5.png)
 
+
+### Multi-Prime Sequences
+
+So how do we get to visualize longer sequences of primes?  
+As a matter of fact, I just googled to see if it has been done yet, and **lo and behold**!
+
+**>>> Check out [this paper](http://www.sciencedirect.com/science/article/pii/S0960077901001357) by [Chung-Ming Ko](http://www.astro.ncu.edu.tw/old_www/index_e.shtml?p=iancu/people/faculty/ko_cm.html)! <<<**
+
+He visualized the last digit for longer sequences of prime numbers using a fractal projection scheme back in 2002.
+
+Since the subdivision scheme is restricted to a [Quadtree](https://de.wikipedia.org/wiki/Quadtree)-style subdivision of the plane, he constrained himself to explore the bases 5, 8, 10 and 12, because for each of those bases there are essentially just four digits to consider
+(Such as 1,3,7 and 9 for base 10)
+
+
+### Shades of Multi-Prime Sequences
+
+So the real challenge is still an open question:
+
+* How to visualize shades of primes for longer sequences and higher bases?
+* Will this reveal any structure beyond what the statistical combination of the pair-wise probabilities would suggest?
